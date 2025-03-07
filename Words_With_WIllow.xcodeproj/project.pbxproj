@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		FB8710FA2D7A8FE100D77C31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB8710E12D7A8FE000D77C31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB8710E82D7A8FE000D77C31;
+			remoteInfo = Words_With_WIllow;
+		};
+		FB8711042D7A8FE100D77C31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB8710E12D7A8FE000D77C31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB8710E82D7A8FE000D77C31;
+			remoteInfo = Words_With_WIllow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB8710E92D7A8FE000D77C31 /* Words_With_WIllow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Words_With_WIllow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB8710F92D7A8FE100D77C31 /* Words_With_WIllowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Words_With_WIllowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB8711032D7A8FE100D77C31 /* Words_With_WIllowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Words_With_WIllowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		FB8710EB2D7A8FE000D77C31 /* Words_With_WIllow */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Words_With_WIllow;
+			sourceTree = "<group>";
+		};
+		FB8710FC2D7A8FE100D77C31 /* Words_With_WIllowTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Words_With_WIllowTests;
+			sourceTree = "<group>";
+		};
+		FB8711062D7A8FE100D77C31 /* Words_With_WIllowUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Words_With_WIllowUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB8710E62D7A8FE000D77C31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8710F62D7A8FE100D77C31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8711002D7A8FE100D77C31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB8710E02D7A8FE000D77C31 = {
+			isa = PBXGroup;
+			children = (
+				FB8710EB2D7A8FE000D77C31 /* Words_With_WIllow */,
+				FB8710FC2D7A8FE100D77C31 /* Words_With_WIllowTests */,
+				FB8711062D7A8FE100D77C31 /* Words_With_WIllowUITests */,
+				FB8710EA2D7A8FE000D77C31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB8710EA2D7A8FE000D77C31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB8710E92D7A8FE000D77C31 /* Words_With_WIllow.app */,
+				FB8710F92D7A8FE100D77C31 /* Words_With_WIllowTests.xctest */,
+				FB8711032D7A8FE100D77C31 /* Words_With_WIllowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB8710E82D7A8FE000D77C31 /* Words_With_WIllow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB87110D2D7A8FE100D77C31 /* Build configuration list for PBXNativeTarget "Words_With_WIllow" */;
+			buildPhases = (
+				FB8710E52D7A8FE000D77C31 /* Sources */,
+				FB8710E62D7A8FE000D77C31 /* Frameworks */,
+				FB8710E72D7A8FE000D77C31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				FB8710EB2D7A8FE000D77C31 /* Words_With_WIllow */,
+			);
+			name = Words_With_WIllow;
+			packageProductDependencies = (
+			);
+			productName = Words_With_WIllow;
+			productReference = FB8710E92D7A8FE000D77C31 /* Words_With_WIllow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB8710F82D7A8FE100D77C31 /* Words_With_WIllowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB8711102D7A8FE100D77C31 /* Build configuration list for PBXNativeTarget "Words_With_WIllowTests" */;
+			buildPhases = (
+				FB8710F52D7A8FE100D77C31 /* Sources */,
+				FB8710F62D7A8FE100D77C31 /* Frameworks */,
+				FB8710F72D7A8FE100D77C31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB8710FB2D7A8FE100D77C31 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FB8710FC2D7A8FE100D77C31 /* Words_With_WIllowTests */,
+			);
+			name = Words_With_WIllowTests;
+			packageProductDependencies = (
+			);
+			productName = Words_With_WIllowTests;
+			productReference = FB8710F92D7A8FE100D77C31 /* Words_With_WIllowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB8711022D7A8FE100D77C31 /* Words_With_WIllowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB8711132D7A8FE100D77C31 /* Build configuration list for PBXNativeTarget "Words_With_WIllowUITests" */;
+			buildPhases = (
+				FB8710FF2D7A8FE100D77C31 /* Sources */,
+				FB8711002D7A8FE100D77C31 /* Frameworks */,
+				FB8711012D7A8FE100D77C31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB8711052D7A8FE100D77C31 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FB8711062D7A8FE100D77C31 /* Words_With_WIllowUITests */,
+			);
+			name = Words_With_WIllowUITests;
+			packageProductDependencies = (
+			);
+			productName = Words_With_WIllowUITests;
+			productReference = FB8711032D7A8FE100D77C31 /* Words_With_WIllowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB8710E12D7A8FE000D77C31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					FB8710E82D7A8FE000D77C31 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					FB8710F82D7A8FE100D77C31 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = FB8710E82D7A8FE000D77C31;
+					};
+					FB8711022D7A8FE100D77C31 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = FB8710E82D7A8FE000D77C31;
+					};
+				};
+			};
+			buildConfigurationList = FB8710E42D7A8FE000D77C31 /* Build configuration list for PBXProject "Words_With_WIllow" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB8710E02D7A8FE000D77C31;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FB8710EA2D7A8FE000D77C31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB8710E82D7A8FE000D77C31 /* Words_With_WIllow */,
+				FB8710F82D7A8FE100D77C31 /* Words_With_WIllowTests */,
+				FB8711022D7A8FE100D77C31 /* Words_With_WIllowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB8710E72D7A8FE000D77C31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8710F72D7A8FE100D77C31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8711012D7A8FE100D77C31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB8710E52D7A8FE000D77C31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8710F52D7A8FE100D77C31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8710FF2D7A8FE100D77C31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB8710FB2D7A8FE100D77C31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB8710E82D7A8FE000D77C31 /* Words_With_WIllow */;
+			targetProxy = FB8710FA2D7A8FE100D77C31 /* PBXContainerItemProxy */;
+		};
+		FB8711052D7A8FE100D77C31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB8710E82D7A8FE000D77C31 /* Words_With_WIllow */;
+			targetProxy = FB8711042D7A8FE100D77C31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FB87110B2D7A8FE100D77C31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB87110C2D7A8FE100D77C31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB87110E2D7A8FE100D77C31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Words_With_WIllow/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tecmilenio.Words-With-WIllow";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB87110F2D7A8FE100D77C31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Words_With_WIllow/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tecmilenio.Words-With-WIllow";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FB8711112D7A8FE100D77C31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tecmilenio.Words-With-WIllowTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Words_With_WIllow.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Words_With_WIllow";
+			};
+			name = Debug;
+		};
+		FB8711122D7A8FE100D77C31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tecmilenio.Words-With-WIllowTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Words_With_WIllow.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Words_With_WIllow";
+			};
+			name = Release;
+		};
+		FB8711142D7A8FE100D77C31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tecmilenio.Words-With-WIllowUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Words_With_WIllow;
+			};
+			name = Debug;
+		};
+		FB8711152D7A8FE100D77C31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tecmilenio.Words-With-WIllowUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Words_With_WIllow;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB8710E42D7A8FE000D77C31 /* Build configuration list for PBXProject "Words_With_WIllow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB87110B2D7A8FE100D77C31 /* Debug */,
+				FB87110C2D7A8FE100D77C31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB87110D2D7A8FE100D77C31 /* Build configuration list for PBXNativeTarget "Words_With_WIllow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB87110E2D7A8FE100D77C31 /* Debug */,
+				FB87110F2D7A8FE100D77C31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB8711102D7A8FE100D77C31 /* Build configuration list for PBXNativeTarget "Words_With_WIllowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB8711112D7A8FE100D77C31 /* Debug */,
+				FB8711122D7A8FE100D77C31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB8711132D7A8FE100D77C31 /* Build configuration list for PBXNativeTarget "Words_With_WIllowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB8711142D7A8FE100D77C31 /* Debug */,
+				FB8711152D7A8FE100D77C31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB8710E12D7A8FE000D77C31 /* Project object */;
+}
