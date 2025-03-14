@@ -12,8 +12,10 @@ struct Words_With_WIllowApp: App {
     var body: some Scene {
         WindowGroup {
             
-            
-                ContentView()
+
+                
+                LoginView()
+                
             
         }
     }

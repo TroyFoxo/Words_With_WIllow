@@ -22,10 +22,16 @@ struct RoundButtonModifier: ViewModifier {
     func body(content: Content) -> some View {
         content
             .font(.headline)
+            .multilineTextAlignment(.center)
+
             .foregroundColor(foregroundColor)
             .padding(.vertical, 10)
             .frame(maxWidth: .infinity)
             .background(backgroundColor)
             .clipShape(Capsule())
     }
+}
+
+#Preview {
+    LoginView()
 }

@@ -18,14 +18,32 @@ struct CategoryView: View {
             
         ZStack
         {
-            Color.black
-            Color.cyan.opacity(0.35)
+            //Color.black
+            //Color.cyan.opacity(0.35)
             
             
             
             
             
             VStack {
+                
+                //Lenguajes
+                HStack{
+                    Image(systemName: "globe").resizable().frame(width: 30, height: 30)
+                    Text("Languages")
+                }.modifier(CategoryModifier())
+                
+                //ds
+                
+                //Lenguajes
+                HStack{
+                    Image(systemName: "globe").resizable().frame(width: 30, height: 30)
+                    Text("Languages")
+                }.modifier(CategoryModifier())
+                
+                
+                
+              
                 
                 
                 // Button that triggers the navigation to the third view
@@ -34,6 +52,7 @@ struct CategoryView: View {
                 }) {
                     Text("Category View")
                 }.modifier(RoundButtonModifier(backgroundColor: .green))
+                    .padding(.top)
 
                 
                 
@@ -46,7 +65,7 @@ struct CategoryView: View {
                 }
                 
                 
-                
+               
                     
                 
             }
