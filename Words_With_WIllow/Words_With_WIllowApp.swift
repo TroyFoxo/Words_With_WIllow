@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-@main
+//@main
 struct Words_With_WIllowApp: App {
     var body: some Scene {
         WindowGroup {
             
 
                 
-                LoginView()
+            ARViewContainer()
                 
             
         }

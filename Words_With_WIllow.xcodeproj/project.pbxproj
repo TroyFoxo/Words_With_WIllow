@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		FB5E06812D9CDF2300FF2A68 /* ARKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB5E06802D9CDF2300FF2A68 /* ARKit.framework */; };
+		FB5E06832D9CDF2A00FF2A68 /* RealityKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB5E06822D9CDF2A00FF2A68 /* RealityKit.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		FB8710FA2D7A8FE100D77C31 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FB5E06802D9CDF2300FF2A68 /* ARKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARKit.framework; path = System/Library/Frameworks/ARKit.framework; sourceTree = SDKROOT; };
+		FB5E06822D9CDF2A00FF2A68 /* RealityKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealityKit.framework; path = System/Library/Frameworks/RealityKit.framework; sourceTree = SDKROOT; };
 		FB8710E92D7A8FE000D77C31 /* Words_With_WIllow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Words_With_WIllow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB8710F92D7A8FE100D77C31 /* Words_With_WIllowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Words_With_WIllowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB8711032D7A8FE100D77C31 /* Words_With_WIllowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Words_With_WIllowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,6 +59,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB5E06832D9CDF2A00FF2A68 /* RealityKit.framework in Frameworks */,
+				FB5E06812D9CDF2300FF2A68 /* ARKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +81,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB5E067F2D9CDF2300FF2A68 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB5E06822D9CDF2A00FF2A68 /* RealityKit.framework */,
+				FB5E06802D9CDF2300FF2A68 /* ARKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FB8710E02D7A8FE000D77C31 = {
 			isa = PBXGroup;
 			children = (
 				FB8710EB2D7A8FE000D77C31 /* Words_With_WIllow */,
 				FB8710FC2D7A8FE100D77C31 /* Words_With_WIllowTests */,
 				FB8711062D7A8FE100D77C31 /* Words_With_WIllowUITests */,
+				FB5E067F2D9CDF2300FF2A68 /* Frameworks */,
 				FB8710EA2D7A8FE000D77C31 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -399,6 +418,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Words_With_WIllow/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Words-With-WIllow-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "dame permisos perra";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,6 +450,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Words_With_WIllow/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Words-With-WIllow-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "dame permisos perra";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

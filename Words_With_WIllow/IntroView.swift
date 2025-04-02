@@ -21,28 +21,36 @@ struct IntroView: View {
             
             ZStack
             {
-                Color.black
-                Color.cyan.opacity(0.35)
+                
+                
                 
                 
                 VStack {
                     
+                    Text("Welcome to Words With Willow")
+                        .font(.largeTitle)
+                        .fontWeight(.bold)
+                    
+                    Text("This is your pet!:").padding(.top)
+                        
+                    
+                    Spacer()
+                    
+                    
                     
                     // Button that triggers the navigation to the third view
-                                Button(action: {
-                                    isActive = true // Set isActive to true to trigger the navigation
-                                }) {
-                                    Text("Intro View")
-                                        
-                                }.modifier(RoundButtonModifier(backgroundColor: .green))
+                    Button(action: {
+                        isActive = true // Set isActive to true to trigger the navigation
+                    }) {     Text("Intro View")   }.modifier(RoundButtonModifier(backgroundColor: .green))
 
-                                // NavigationLink that is triggered programmatically to go to ThirdView
-                                NavigationLink(
-                                    destination: CategoryView(),
-                                    isActive: $isActive // Binding to the state variable
-                                ) {
-                                    EmptyView() // Empty view since the navigation is triggered programmatically
-                                }
+                    // NavigationLink that is triggered programmatically to go to ThirdView
+                    NavigationLink(
+                        destination: CategoryView(),
+                        isActive: $isActive // Binding to the state variable
+                    ) {
+                        EmptyView()
+                        // Empty view since the navigation is triggered programmatically
+                    }
                     
                     
                     
@@ -55,7 +63,7 @@ struct IntroView: View {
                 
                 
                 
-            }.ignoresSafeArea(.all)
+            }//.ignoresSafeArea(.all)
             
         }
         

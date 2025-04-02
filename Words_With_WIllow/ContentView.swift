@@ -7,22 +7,22 @@
 
 import SwiftUI
 
-
-struct ContentView: View {
-    
-    var body: some View {
-        
-        NavigationView {
+@main
+struct ContentView: App {
+    var body: some Scene {
+        WindowGroup {
+            
+                
+            ARViewContainer()
+                
             
         }
-        
-        
     }
-        
 }
+
 
 #Preview {
     
-    ContentView()
+    ARViewContainer()
     
 }
