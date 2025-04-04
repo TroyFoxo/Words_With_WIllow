@@ -12,9 +12,7 @@ struct ContentView: App {
     var body: some Scene {
         WindowGroup {
             
-                
             ARViewContainer()
-                
             
         }
     }

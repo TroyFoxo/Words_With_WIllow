@@ -25,14 +25,20 @@ struct IntroView: View {
                 
                 
                 
-                VStack {
+                VStack(alignment: .center) {
                     
                     Text("Welcome to Words With Willow")
                         .font(.largeTitle)
-                        .fontWeight(.bold)
+                    .fontWeight(.bold)
+                    .multilineTextAlignment(.center)
+                        
+                        
                     
                     Text("This is your pet!:").padding(.top)
                         
+                    
+                    Image(.beast).resizable().frame(height: 300).padding(.top)
+                    
                     
                     Spacer()
                     
@@ -41,7 +47,7 @@ struct IntroView: View {
                     // Button that triggers the navigation to the third view
                     Button(action: {
                         isActive = true // Set isActive to true to trigger the navigation
-                    }) {     Text("Intro View")   }.modifier(RoundButtonModifier(backgroundColor: .green))
+                    }) {     Text("Intro View")   }.modifier(RoundButtonModifier(backgroundColor: .orange))
 
                     // NavigationLink that is triggered programmatically to go to ThirdView
                     NavigationLink(

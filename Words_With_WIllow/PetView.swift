@@ -18,11 +18,6 @@ struct PetView: View {
             
         ZStack
         {
-            Color.black
-            Color.cyan.opacity(0.35)
-            
-            
-            
             
             
             VStack {
